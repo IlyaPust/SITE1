@@ -1,0 +1,311 @@
+body{
+    background: #F8F4E1;
+    margin: 0;
+}
+header{
+    height: 700px;
+    background-image: url('photo/goris_coffe.jpg'); /* Путь к картинке */
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+
+}
+
+
+.header_cont h1{
+
+    color: white;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 75px;
+    font-weight: 750;
+    margin-top: 100px;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  2px 0 black,
+            1px  2px 0 black; /* Чёрная обводка */
+
+    text-align: center;
+    margin-bottom: 20px;
+
+
+
+}
+.header_top{
+    /*background: green;*/
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo_header{
+    /*background: greenyellow;*/
+    padding: 20px;
+    background-image: url("photo/logo.png");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+.menu_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.menu_header a{
+    text-decoration: none;
+}
+
+.select_header{
+    /*background: aqua;*/
+    padding: 15px 20px;
+    color: #f1d1ba;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    letter-spacing: 4px;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+
+}
+
+.select_header:hover{
+    /*font-weight: bold;*/
+    border-bottom: 2px solid #f1d1ba;
+    transform: scale(1.1);
+    /*text-shadow: none;*/
+    /*background-color: rgba(187, 155, 124, 0.45);*/
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black
+}
+
+
+
+.hero_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 80%;
+    margin: -80px auto 0;
+    gap: 25px
+}
+
+.main_cont{
+    background: #ffffff;
+    padding: 20px;
+    width: 370px;
+    min-width: 300px;
+    height: 400px;
+    border-radius: 35px;
+    border: 6px dashed #daab73;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    color: #543310;
+
+}
+
+.about_as{
+    /*background: red;*/
+    /*height: 320px;*/
+    width: 80%;
+    display: flex;
+    margin: 30px auto ;
+    flex-direction: column;
+    padding: 15px;
+}
+.about_as h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #daab73;
+
+}
+
+.about_as p{
+    font-size: 20px
+}
+
+.block_menu{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block_menu h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #daab73;
+}
+
+.menu_cont{
+    background: burlywood;
+    width: 200px;
+    min-width: 150px;
+    padding: 10px;
+
+}
+
+.img_coffee{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+
+}
+
+.img_coffee.img1{
+    background-image: url("photo/coffe/black_coffee.jpg");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+}
+
+.img_coffee.img2{
+    background-image: url("photo/coffe/latte.jpg");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+}
+
+
+.img_coffee.img3{
+    background-image: url("photo/coffe/caputino.jpg");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+}
+
+.img_coffee.img4{
+    background-image: url("photo/coffe/roztvorim.jpg");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+}
+
+.img_coffee.img5{
+    background-image: url("photo/coffe/shokochino.jpg");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+}
+
+.img_coffee.img6{
+    background-image: url("photo/coffe/koktelia.jpg");
+    background-size: cover; /* Растягивает изображение на весь блок */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Отключает повторение */;
+}
+
+
+.menu_cont h4{
+    /*background: red;*/
+}
+
+footer{
+    background: #715333;
+    /*height: 600px;*/
+}
+
+.contact_us{
+    padding: 20px 0 40px;
+    /*height: 100px;*/
+
+}
+.contact_us h1{
+    /*background: blue;*/
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+}
+
+.contact_us p{
+    color: white;
+    text-align: center;
+    /*font-weight: 300;*/
+    letter-spacing: 2px;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+}
+
+.block_contact{
+    /*background: red;*/
+
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+
+
+}
+.block_contact>div{
+    /*background: yellow;*/
+    width: 250px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    padding: 25px 0;
+    flex-basis: calc(25% - 25px);
+
+    color: white;
+}
+
+.block_contact span{
+
+}
+.block_contact img{
+    width: 70px;
+    height: 70px;
+    filter: sepia(100%);
+}
+
+.block_contact h3{
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+}
+
+.block_contact p{
+    font-family: Oswald, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+@media (max-width: 994px) {
+    .block_contact>div{
+        flex-basis: calc(50% - 25px);
+    }
+}
+
+@media (max-width: 570px) {
+    .block_contact>div{
+        flex-basis: 100%;
+    }
+}
